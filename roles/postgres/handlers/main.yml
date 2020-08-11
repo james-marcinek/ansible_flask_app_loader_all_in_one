@@ -4,11 +4,6 @@
     name: "{{ postgres_service }}"
     state: restarted
 
-- name: restart_haproxy
-  service:
-    name: haproxy
-    state: restarted
-
 #- name: End to end smoke tests
 #  hosts: app_servers:database_servers
 #  gather_facts: true

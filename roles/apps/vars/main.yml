@@ -24,9 +24,6 @@ pip_dependencies:
   - pip  
   - psycopg2-binary
 
-load_balancer_packages:
-  - haproxy
-
 #- name: End to end smoke tests
 #  hosts: app_servers:database_servers
 #  gather_facts: true
